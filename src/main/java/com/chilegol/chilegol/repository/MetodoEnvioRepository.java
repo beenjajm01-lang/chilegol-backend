@@ -2,5 +2,8 @@ package com.chilegol.chilegol.repository;
 
 import com.chilegol.chilegol.model.MetodoEnvio;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface MetodoEnvioRepository extends JpaRepository<MetodoEnvio, Long> {}
+@Repository
+public interface MetodoEnvioRepository extends JpaRepository<MetodoEnvio, Long> {
+}
